@@ -28,20 +28,20 @@
 
 ## 原创
 
-- [这是一篇示例的原创文章](https://github.com/clouDr-f2e/weekly-digest)
+- [这是一篇示例的原创文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
 
 ## 翻译
 
-- [这是一篇示例的翻译文章](https://github.com/clouDr-f2e/weekly-digest)
+- [这是一篇示例的翻译文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
 
 ## 文章与新闻
 
-- [这是一篇本周精选的文章](https://github.com/clouDr-f2e/weekly-digest)
-- [这是一篇本周精选的新闻](https://github.com/clouDr-f2e/weekly-digest)
+- [这是一篇本周精选的文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
+- [这是一篇本周精选的新闻](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
 
 ## 推荐库
 
-- [weekly-digest v1.0.0](https://github.com/clouDr-f2e/weekly-digest)
+- [weekly-digest v1.0.0](https://github.com/clouDr-f2e/weekly-digest)：请写上推荐理由
 
 ```
 
