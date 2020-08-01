@@ -1,8 +1,7 @@
-::: tip 项目结构的重要性
+## 项目结构的重要性
 高内聚低耦合是衡量软件设计好坏的标准，项目结构也是如此。一个良好的项目架构应该随着项目迭代但目录结构却改变不大并保持着高内聚低耦合的规范。
 
 本文推荐的项目结构实践：[财务后台](https://gitlab.91jkys.com/web/finance-admin/tree/qatest)
-:::
 
 ## 传统Vue项目结构
 
@@ -89,7 +88,7 @@ src
 
 1. 想找指定模块的文件难找
 2. 新加功能时需要在最外层多个文件夹中导入文件
-### 推荐的目录结构
+### 推荐的目录结构
 ```js
 src
  └── modules
@@ -114,10 +113,10 @@ src
 上面的例子是将传统的目录改了一版，相对来说找当前模块文件更为简单
 ## 工作流
 ### 传统工作流
-![](../assets/tradition-request.drawio.png)
+![](./assets/tradition-request.drawio.png)
 
 举个例子：调用删除接口，并弹窗提示：
-::: tip index.vue
+#### index.vue
 ```js
 async function delateBtn(id) {
   const res = await fetchApi.deleteById(id)
@@ -126,13 +125,12 @@ async function delateBtn(id) {
      }
 }
 ```
-:::
 上面的例子是在业务代码中判断是否删除成功，然后提示弹窗，其实判断删除是否成功这是数据处理，业务代码只需要`删除成功`的这个字符串就可以了，所以引出下面的工作流。
 ### 推荐工作流
-![](../assets/recommend-request.drawio.png)
+![](./assets/recommend-request.drawio.png)
 
 举个例子：调用删除接口，并弹窗提示：
-::: tip store.js
+#### store.js
 ```js
 {
   actions: {
@@ -144,16 +142,14 @@ async function delateBtn(id) {
     }
   }
 }
-```·
-:::
-::: tip index.vue
+```
+#### index.vue
 ```js
 async function delateBtn(id) {
   const msg = await deleteById(id)
   this.$message.success(msg)
 }
 ```
-:::
 有时候接口返回的数据并不是前端开发想要的，可以在`action`这一层转换一下，然后直接吐给`view`层，这样做的好处是让`view`层的代码更简介，专注于渲染，不去关注数据处理。
 
 
