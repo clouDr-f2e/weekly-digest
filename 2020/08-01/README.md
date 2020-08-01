@@ -28,7 +28,7 @@
 
 ## 原创
 
-- [这是一篇示例的原创文章](https://github.com/clouDr-f2e/weekly-digest/blob/master/2020/08-01/docs/Vue2.6-template.md)：Vue2.6推荐目录模板
+[Vue2.6推荐项目结构](https://github.com/clouDr-f2e/weekly-digest/blob/master/2020/08-01/docs/Vue2.6-template.md)：一个适合迭代大项目的项目结构
 
 ## 翻译
 
