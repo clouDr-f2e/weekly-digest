@@ -23,7 +23,6 @@
 
 ## 文摘模板
 
-```markdown
 # 2020年7月第4周 - 智云健康前端技术每周文摘
 
 ## 原创
@@ -42,8 +41,6 @@
 ## 推荐库
 
 - [weekly-digest v1.0.0](https://github.com/clouDr-f2e/weekly-digest)：请写上推荐理由
-
-```
 
 ## 每周一练
 
