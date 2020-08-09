@@ -6,7 +6,7 @@
 
 ```text
 2020 # 年份
-└── 07-04 # 7月第4周
+└── 08-01 # 8月第1周
     ├── README.md # 本周文摘
     └── 这是一篇原创文章.md # 原创文章
     └── 这是一篇翻译文章.md # 翻译文章（请标明出处）
@@ -24,20 +24,20 @@
 ## 文摘模板
 
 ```markdown
-# 2020年7月第4周 - 智云健康前端技术每周文摘
+# 2020年8月第1周 - 智云健康前端技术每周文摘
 
 ## 原创
 
-- [这是一篇示例的原创文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
+- [这是一篇原创文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
 
 ## 翻译
 
-- [这是一篇示例的翻译文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
+- [这是一篇翻译文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
 
 ## 文章与新闻
 
-- [这是一篇本周精选的文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
-- [这是一篇本周精选的新闻](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
+- [这是一篇精选文章](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
+- [这是一篇精选新闻](https://github.com/clouDr-f2e/weekly-digest)：请写上文章简要说明
 
 ## 推荐库
 
